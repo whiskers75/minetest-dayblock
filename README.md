@@ -1,7 +1,7 @@
 Dayblock Mod
 ------------
 
-/giveyourself dayblock:block
+/giveme dayblock:block then
 punch it.
 
 enjoy!
