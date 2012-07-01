@@ -1,7 +1,7 @@
 -- TIME OF DAY BLOCK MOD
 -- by whiskers75
 
-local version = "1.1"
+local version = "1"
 
 minetest.register_node ("dayblock:block", {
     drawtype = blocklike,
@@ -24,6 +24,7 @@ minetest.register_on_punchnode(function(pos, node, puncher)
 end)
 
 
+print("Dayblock Mod version "..version.." loaded!")
 
 minetest.register_node ("dayblock:nblock", {
     drawtype = blocklike,
@@ -45,4 +46,4 @@ minetest.register_on_punchnode(function(pos, node, puncher)
 	end
 end)
 
-print("Dayblock Mod version "..version.." loaded!")
+
