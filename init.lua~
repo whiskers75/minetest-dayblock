@@ -1,7 +1,7 @@
 -- TIME OF DAY BLOCK MOD
 -- by whiskers75
 
-local version = "1.2"
+local version = "1.1"
 
 minetest.register_node ("dayblock:block", {
     drawtype = blocklike,
